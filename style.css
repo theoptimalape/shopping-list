@@ -1,0 +1,43 @@
+/* General Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #333;
+  color: #f4f4f4;
+}
+.flex {
+  display: flex;
+}
+
+/* Landing Style */
+header {
+  height: 100vh;
+  width: 100vw;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  padding-bottom: 2rem;
+}
+form {
+  height: 30vh;
+  width: 30vw;
+  background: rgb(85, 78, 78);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h3 {
+  padding-bottom: 1rem;
+}
+.set {
+  padding-bottom: 0.5rem;
+}
